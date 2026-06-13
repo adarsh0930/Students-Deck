@@ -54,3 +54,37 @@ Follow these steps to get the project running on your local machine.
 ### 1. Backend Setup
 
 Open a terminal and navigate to the `server` directory:
+
+Code output
+README-v2.md created successfully.
+
+```bash
+cd server
+npm install
+Create a .env file in the root of the server folder and add your configuration:
+
+Code snippet
+PORT=5000
+JWT_SECRET=your_super_secret_jwt_key_here
+L2_SECRET_KEY=12345678901234567890123456789012  # Must be exactly 32 characters
+Start the backend development server:
+
+Bash
+npm run dev
+(The backend will automatically spin up an in-memory MongoDB instance for testing).
+
+2. Frontend Setup
+Open a second terminal window and navigate to the frontend directory:
+
+Bash
+cd frontend
+npm install
+Start the Vite development server:
+
+Bash
+npm run dev
+Click the http://localhost:5173 link provided in your terminal to open the application in your browser.
+
+📝 Testing Note
+Because this project utilizes mongodb-memory-server for frictionless testing, the database exists entirely in your computer's RAM. Every time the backend server restarts, the database is wiped clean. You will need to register a new user to test the dashboard after a restart.
+"""
