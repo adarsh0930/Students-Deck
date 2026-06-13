@@ -1,8 +1,5 @@
 readme_content = """# 🛡️ Secure Student Portal
 
-![App Demo Screenshot](./Screenshot 2026-06-12 120159.png)
-*(Note: Replace `./screenshot.png` with the actual path to your application screenshot)*
-
 A modern, full-stack web application demonstrating a **Two-Level Encryption Architecture**. This project ensures sensitive student data is secured both in transit (Level 1) and at rest in the database (Level 2), wrapped in an elegant, lightning-fast UI.
 
 ---
