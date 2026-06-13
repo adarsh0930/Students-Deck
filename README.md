@@ -56,7 +56,6 @@ Follow these steps to get the project running on your local machine.
 Open a terminal and navigate to the `server` directory:
 
 Code output
-README-v2.md created successfully.
 
 ```bash
 cd server
@@ -84,7 +83,8 @@ Start the Vite development server:
 Bash
 npm run dev
 Click the http://localhost:5173 link provided in your terminal to open the application in your browser.
+"""
 
 📝 Testing Note
 Because this project utilizes mongodb-memory-server for frictionless testing, the database exists entirely in your computer's RAM. Every time the backend server restarts, the database is wiped clean. You will need to register a new user to test the dashboard after a restart.
-"""
+
